@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="photo">
+      <img src="mike-swigunski-Ku59NWmVcnI-unsplash.jpg" alt="" />
+      <div class="logo">
+        <img src="odin-lined.png" alt="" srcset="" />
+        <div class="logo-txt">ODIN</div>
+      </div>
+    </div>
+    <div class="right-side">
+      <div class="heading">
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams.
+        <p>Sing up <i>now</i> to get started.</p>
+        You <i>know</i> you want to.
+      </div>
+      <img src="vector-1.svg" alt="" class="vector-1" />
+      <form>
+        <legend>Let's do this!</legend>
+        <div class="groups">
+          <div class="firstgr">
+            <div>
+              <label for="name">first name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                autocomplete="cc-name"
+                pattern="[A-Za-z ]+"
+                title="Please input only letters and spaces"
+                required
+              />
+            </div>
+            <div>
+              <label for="lastname">last name</label>
+              <input
+                type="text"
+                name="lastname"
+                pattern="[A-Za-z ]+"
+                required
+                title="Please input only letters and spaces"
+              />
+              <div>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" required />
+              </div>
+            </div>
+          </div>
+          <div class="secgr">
+            <div>
+              <label for="phone">phone number</label>
+              <input type="tel" name="phone" id="phone" required />
+              <div>
+                <label for="password">password</label>
+                <input type="password" name="password" required />
+              </div>
+            </div>
+            <div>
+              <label for="password">repeat password</label>
+              <input type="password" name="password" required />
+            </div>
+          </div>
+        </div>
+        <button type="submit"><div class="submit">submit</div></button>
+      </form>
+      <div class="login">
+        Already have an account?&nbsp;<a href="#" class="login-btn">Log In</a>
+      </div>
+      <footer></footer>
+    </div>
+  </body>
+</html>
